@@ -50,7 +50,7 @@ public class Renderer {
     }
 
     public void render() {
-        // A = 1, B = 6, C = 4, D = 6
+        // A = 1, B = 6, C = 1, D = 4
         shaderProgram.use();
         glBindVertexArray(vaoID);
         Matrix4f modelMatrix = new Matrix4f().identity()
